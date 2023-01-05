@@ -1,5 +1,10 @@
 function exerc01(){
-    alert("Olá, mundo!")
+    return
+    var button = document.getElementById("myButton");
+    var message = document.getElementById("message");
+
+    button.addEventListener("click", function() {
+    message.innerHTML = "Você clicou no botão!";});
 }
 
 function exerc02(){
